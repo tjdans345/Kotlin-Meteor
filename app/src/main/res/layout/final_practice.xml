@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:background="#131111">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/youtube" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@id/image"
+                android:gravity="center"
+                android:text="My Tube"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8.5"
+        android:background="#444A4C">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="210dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="13dp"
+                android:background="#ffffff"
+                android:src="@drawable/bear" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/profile"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/man"/>
+
+                <TextView
+                    android:layout_width="370dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginRight="13dp"
+                    android:layout_toEndOf="@+id/profile"
+                    android:layout_toRightOf="@id/profile"
+                    android:gravity="center"
+                    android:text="야생의 곰을 만났다!! 갑자기 곰의 돌발행동!!?"
+                    android:textColor="#ffffff"
+                    android:textSize="17dp" />
+
+
+            </RelativeLayout>
+
+
+        </FrameLayout>
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="210dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="13dp"
+                android:background="#ffffff"
+                android:src="@drawable/bear" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/profile2"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/man"/>
+
+                    <TextView
+                        android:layout_width="370dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="17dp"
+                        android:layout_marginRight="13dp"
+                        android:layout_toEndOf="@+id/profile2"
+                        android:layout_toRightOf="@id/profile2"
+                        android:gravity="center"
+                        android:text="야생의 곰을 만났다!! 갑자기 곰의 돌발행동!!?"
+                        android:textColor="#ffffff"
+                        android:textSize="17dp" />
+
+
+                </RelativeLayout>
+
+
+            </FrameLayout>
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="210dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="13dp"
+                android:background="#ffffff"
+                android:src="@drawable/bear" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/profile3"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/man"/>
+
+                    <TextView
+                        android:layout_width="370dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="17dp"
+                        android:layout_marginRight="13dp"
+                        android:layout_toEndOf="@+id/profile3"
+                        android:layout_toRightOf="@id/profile3"
+                        android:gravity="center"
+                        android:text="야생의 곰을 만났다!! 갑자기 곰의 돌발행동!!?"
+                        android:textColor="#ffffff"
+                        android:textSize="17dp" />
+                </RelativeLayout>
+
+            </FrameLayout>
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="210dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="13dp"
+                android:background="#ffffff"
+                android:src="@drawable/bear" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/profile4"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/man"/>
+
+                    <TextView
+                        android:layout_width="370dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="17dp"
+                        android:layout_marginRight="13dp"
+                        android:layout_toEndOf="@+id/profile4"
+                        android:layout_toRightOf="@id/profile4"
+                        android:gravity="center"
+                        android:text="야생의 곰을 만났다!! 갑자기 곰의 돌발행동!!?"
+                        android:textColor="#ffffff"
+                        android:textSize="17dp" />
+                </RelativeLayout>
+
+            </FrameLayout>
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="210dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="13dp"
+                android:background="#ffffff"
+                android:src="@drawable/bear" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/profile5"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/man"/>
+
+                    <TextView
+                        android:layout_width="370dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="17dp"
+                        android:layout_marginRight="13dp"
+                        android:layout_toEndOf="@+id/profile5"
+                        android:layout_toRightOf="@id/profile5"
+                        android:gravity="center"
+                        android:text="야생의 곰을 만났다!! 갑자기 곰의 돌발행동!!?"
+                        android:textColor="#ffffff"
+                        android:textSize="17dp" />
+                </RelativeLayout>
+
+            </FrameLayout>
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="210dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="13dp"
+                android:background="#ffffff"
+                android:src="@drawable/bear" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/profile6"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/man"/>
+
+                    <TextView
+                        android:layout_width="370dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="17dp"
+                        android:layout_marginRight="13dp"
+                        android:layout_toEndOf="@+id/profile6"
+                        android:layout_toRightOf="@id/profile6"
+                        android:gravity="center"
+                        android:text="야생의 곰을 만났다!! 갑자기 곰의 돌발행동!!?"
+                        android:textColor="#ffffff"
+                        android:textSize="17dp" />
+                </RelativeLayout>
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
