@@ -1,11 +1,17 @@
 package com.example.myapplication
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.final_practice)
+        setContentView(R.layout.finalpractice)
     }
+}
+
+fun test (): String {
+
+    val s = "dasdsa"
+    return s
 }
