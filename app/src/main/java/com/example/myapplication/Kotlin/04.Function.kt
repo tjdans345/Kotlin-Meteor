@@ -76,6 +76,3 @@ fun main(array: Array<String>) {
     plusMany(1, 2, 3)
     plusMany(100)
 }
-
-
-
