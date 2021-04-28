@@ -4,18 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_calculator"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".activity_calculator">
 
     <TextView
+        android:id="@+id/result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#2196F3"
+        android:gravity="right|center_vertical"
         android:padding="14dp"
         android:text="0"
-        android:textSize="50dp"
         android:textColor="#ffffff"
-        android:gravity="right|center_vertical"/>
+        android:textSize="50dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,43 +31,37 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/one"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="1"
-                android:textSize="50dp"
-                android:layout_gravity="center"
-                android:textColor="#ffffff"/>
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
 
             <TextView
+                android:id="@+id/four"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="1"
-                android:textSize="50dp"
-                android:layout_gravity="center"
-                android:textColor="#ffffff"/>
+                android:gravity="center"
+                android:text="4"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
 
             <TextView
+                android:id="@+id/seven"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="1"
-                android:textSize="50dp"
-                android:layout_gravity="center"
-                android:textColor="#ffffff"/>
+                android:gravity="center"
+                android:text="7"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
+
 
         </LinearLayout>
-
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#4CAF50"
-        android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -75,43 +70,37 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/two"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="1"
-                android:textSize="50dp"
-                android:layout_gravity="center"
-                android:textColor="#ffffff"/>
+                android:gravity="center"
+                android:text="2"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
 
             <TextView
+                android:id="@+id/five"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="1"
-                android:textSize="50dp"
-                android:layout_gravity="center"
-                android:textColor="#ffffff"/>
+                android:gravity="center"
+                android:text="5"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
 
             <TextView
+                android:id="@+id/eight"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="1"
-                android:textSize="50dp"
-                android:layout_gravity="center"
-                android:textColor="#ffffff"/>
+                android:gravity="center"
+                android:text="8"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
+
 
         </LinearLayout>
-
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#4CAF50"
-        android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -120,35 +109,80 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/three"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="1"
-                android:textSize="50dp"
-                android:layout_gravity="center"
-                android:textColor="#ffffff"/>
+                android:gravity="center"
+                android:text="3"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
 
             <TextView
+                android:id="@+id/six"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="1"
-                android:textSize="50dp"
-                android:layout_gravity="center"
-                android:textColor="#ffffff"/>
+                android:gravity="center"
+                android:text="6"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
 
             <TextView
+                android:id="@+id/nine"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="1"
-                android:textSize="50dp"
-                android:layout_gravity="center"
-                android:textColor="#ffffff"/>
+                android:gravity="center"
+                android:text="9"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/clear"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="CA"
+                android:background="#E91E63"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
+
+            <TextView
+                android:id="@+id/plus"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#FFC107"
+                android:text="+"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
+
+            <TextView
+                android:id="@+id/zero"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
+
 
         </LinearLayout>
 
 
-
     </LinearLayout>
+
 </LinearLayout>
